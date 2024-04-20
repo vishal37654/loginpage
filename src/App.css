@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 7px 10px rgba(105, 4, 238, 0.1);
+  background-color: wheat;
+  margin-top: 120px;
+  border: none;
+  margin-bottom: 60px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px;
+}
+
+span {
+  color: #f70000;
+  font-size: 15px;
+  margin-top: 5px;
+  display: block;
+}
+
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+body
+{
+  background-color: #2980b9;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 0px;
+}
+.login
+{
+  font-family: sans-serif;
+  text-align: center;
+  color: #2980b9;
+}
+form :focus
+{
+  outline: none;
+}
+form.Error
+{
+  border-color: #f70000;
+}

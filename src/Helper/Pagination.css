@@ -1,0 +1,32 @@
+.paginated-data-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .data-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .data-list li {
+    margin-bottom: 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
